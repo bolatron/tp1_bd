@@ -20,18 +20,18 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/3.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = '+ofgod9w)kj#1f#tx_n)4mt)s&8z*a-dqyd2xz=#zu14l=9y2o'
+SECRET_KEY = 'd-&ht-szh^9hxtjxi4ztqj2x!ygqbsnvasp1i#+=b3f164-^t0'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', '192.168.0.106', 'mytest.com', '0.0.0.0']
+ALLOWED_HOSTS = []
 
 
 # Application definition
 
 INSTALLED_APPS = [
-    'polymorphic',
+    'crispy_forms',
     'web_app',
     'django.contrib.admin',
     'django.contrib.auth',
@@ -105,9 +105,9 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/3.1/topics/i18n/
 
-LANGUAGE_CODE = 'en-us'
+LANGUAGE_CODE = 'pt-br'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'America/Sao_Paulo'
 
 USE_I18N = True
 
